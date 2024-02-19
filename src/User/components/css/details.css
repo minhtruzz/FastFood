@@ -1,0 +1,47 @@
+/*Details*/
+
+
+.ChiTiet .main-content {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 80px;
+    color: #aaa;
+    margin-top: 130px;
+}
+
+
+.right h3 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #aaa;
+}
+
+.right p {
+    overflow-x: hidden;
+    width: 80%;
+    font-size: 20px;
+    color: #aaa;
+    margin-bottom: 60px;
+}
+
+.right button {
+    margin-right: 180px;
+    margin-left: 20px;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+.product-img img {
+    width: 500px;
+    height: auto;
+}

@@ -1,0 +1,113 @@
+/*Login*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    transition: unset;
+}
+
+.login_wrapper {
+    background-image: url(/public/images/home-bg.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.login_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.form_login {
+    width: 400px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: white;
+    background: transparent;
+}
+
+.form_login h2 {
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+.form_login .input_box {
+    position: relative;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width: 310px;
+    margin-top: 30px;
+}
+
+input {
+    text-transform: none;
+}
+
+.form_login .input_box input {
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    padding: 10px 5px;
+    background: transparent;
+    color: white;
+}
+
+.input_box label {
+    font-size: 1.8rem;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s;
+}
+
+.input_box input:valid~label,
+.input_box input:focus~label {
+    top: -10px;
+}
+
+.form_login button {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 40px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.remember_me {
+    font-size: 1.5rem;
+}
+
+.forget_password,
+.register_account {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forget_password {
+    margin-left: 10px;
+}
+
+.form_login a {
+    text-decoration: none;
+    color: white;
+}
+
+.form_login a:hover {
+    text-decoration: underline;
+}
